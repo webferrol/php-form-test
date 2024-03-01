@@ -1,0 +1,59 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Qué significa PHP?",
+      "opciones": ["Personal Home Page", "Hypertext Preprocessor", "Private Hypertext Processor", "Personal Hypertext Preprocessor"],
+      "respuesta_correcta": "Hypertext Preprocessor"
+    },
+    {
+      "pregunta": "¿Quién inventó PHP?",
+      "opciones": ["Rasmus Lerdorf", "Brendan Eich", "Elon Musk", "Sam Altman","Superman"],
+      "respuesta_correcta": "Rasmus Lerdorf"
+    },
+    {
+      "pregunta": "¿Cuál es el operador de comparación estricta en PHP?",
+      "opciones": ["==", "===", "!=", "<>"],
+      "respuesta_correcta": "==="
+    },
+    {
+      "pregunta": "¿Cuál es la función para redireccionar en PHP?",
+      "opciones": ["header('Location: url')", "redirect('url')", "goTo('url')", "moveTo('url')"],
+      "respuesta_correcta": "header('Location: url')"
+    },
+    {
+      "pregunta": "¿Cuál es el resultado de la siguiente expresión: <pre>'8' . 5</pre> ?",
+      "opciones": ["85", "13", "Error", "Ninguna de las anteriores"],
+      "respuesta_correcta": "85"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre de la superglobal que almacena las cookies en PHP?",
+      "opciones": ["$_COOKIE", "$_SESSION", "$_REQUEST", "$_COOKIES"],
+      "respuesta_correcta": "$_COOKIE"
+    },
+    {
+      "pregunta": "¿Qué función se utiliza para abrir un archivo en PHP?",
+      "opciones": ["open_file()", "read_file()", "file_open()", "fopen()"],
+      "respuesta_correcta": "fopen()"
+    },
+    {
+      "pregunta": "¿Cuál es el resultado de la siguiente expresión: <pre>7 % 2</pre>?",
+      "opciones": ["3.5", "2", "3", "1"],
+      "respuesta_correcta": "1"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre de la función que se utiliza para eliminar una sesión en PHP?",
+      "opciones": ["session_destroy()", "session_unset()", "session_delete()", "unset_session()"],
+      "respuesta_correcta": "session_destroy()"
+    },
+    {
+      "pregunta": "¿Cuál es la forma correcta de iniciar un array asociativo en PHP?",
+      "opciones": ["[1, 2, 3]", "{1, 2, 3}", "[1 => 'a', 2 => 'b', 3 => 'c']", "array(1, 2, 3)"],
+      "respuesta_correcta": "[1 => 'a', 2 => 'b', 3 => 'c']"
+    },
+    {
+      "pregunta": "¿Cuál es el operador de asignación de comparación en PHP?",
+      "opciones": ["==", "===", "<=>", "="],
+      "respuesta_correcta": "<=>"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+*,
+::before *
+{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+fieldset {
+    border-style: none;
+}
+legend {
+    color: tomato;
+}
+
+pre {
+    display: inline-block;
+    padding: .5rem;
+    box-shadow: 0 0 25px 0 black;
+}
+.main-container {
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px;
+
+}
+.form-container {
+    ol {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: .5rem;
+        padding: .5rem;
+        list-style: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        li {
+            padding: .5rem;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+
+        }
+    }
+}
+
+/* Estilo para los campos de entrada */
+.form-input {
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
+}
+
+/* Estilo para el botón de envío */
+.form-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Cambio de color al pasar el ratón sobre el botón */
+.form-submit:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para las etiquetas */
+.form-label {
+    font-weight: bold;
+}
+
+/* Estilo para mensajes de error */
+.error-message {
+    padding: 5px;
+    color: red;
+}
+
+.preguntas {
+    counter-reset: ask-counter;
+    & > li {
+        position: relative;
+        counter-increment: ask-counter;
+        &::before {
+            content: counter(ask-counter);
+            display: block;
+            position: absolute;
+            right: .5rem;
+            font-size: 2.5rem;
+            text-align: center;
+            line-height: 2.5rem;
+            width: 3rem;
+            aspect-ratio: 1 / 1;
+            padding: .5rem;
+            color: rgb(90, 143, 90);
+            background-color: rgb(90 143 90 / 15%);
+            transform: rotate(45deg);
+            border-radius: 50%;
+        }
+    }
+}
+
+
+.options {
+    padding-left: 0;
+    list-style-type: none;
+}
